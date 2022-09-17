@@ -12,7 +12,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 
   <!-- Bring in our own stylesheet, AFTER Bootstrap  -->
-  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
 
 <body style = "background-color: #dff6fd">
@@ -23,32 +23,31 @@
       </button>
   
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <a class="navbar-brand" href="/index.html">Latitudes</a>
+        <a class="navbar-brand" href="../index.html">Latitudes</a>
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">
               Plots
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="visuals_page1.html">Temperature</a></li>
-              <li><a class="dropdown-item" href="visuals_page2.html">Cloudiness</a></li>
-              <li><a class="dropdown-item" href="visuals_page3.html">Humidity</a></li>
-              <li><a class="dropdown-item" href="visuals_page4.html">Windspeed</a></li>
+              <li><a class="dropdown-item" href="temperature.html">Temperature</a></li>
+              <li><a class="dropdown-item" href="cloudiness.html">Cloudiness</a></li>
+              <li><a class="dropdown-item" href="humidity.html">Humidity</a></li>
+              <li><a class="dropdown-item" href="wind_speed.html">Windspeed</a></li>
             </ul>
           </li>
           
           <li class="nav-item">
-            <a class="nav-link" href="/comparisons.html">Comparisons</a>          
+            <a class="nav-link" href="../comparisons.html">Comparisons</a>          
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/city_data.html">Data</a>
+            <a class="nav-link" href="../city_data.html">Data</a>
           </li>
         </ul>      
       </div>
     </div>   
     
   </nav>
-
   <div class="container">
     <br>
     <br>
@@ -58,17 +57,14 @@
         <div class="col-lg-6 col-md-12">          
          <div class="card embed-responsive">
             <div class="card-body">
-              <h3 class="card-header text-center text-primary" >Summary: Temperatures vs. Latitude</h3>
+              <h3 class="card-header text-center text-primary" >Summary: Wind Speed vs. Latitude</h3>
               <div class="row">
-                <div class="col-lg-8 col-md-6">
-                  <img alt="Card image cap" class="card-img-top embed-responsive-item" src="/assets/images/max_temp_vs_lat.png">
-                </div>
-                <div class="col-lg-4 col-md-6">
-                  <p class="card-text">The motivation for this analysis was to see how local weather conditions are affected by position relative to the equator. Data from over 500 cities randomly located around the globe are being used along with the data from OpenWeatherMap API.</p>
+                <div class="col-lg-12 col-lg-6">
+                  <img alt="Card image cap" class="card-img-top embed-responsive-item" src="../assets/images/wind_speed_vs_lat.png">
                 </div>
               </div>
               <div class="row">
-                <p class="card-text">The data used includes temperatures, cloudiness, wind speed and humidity.  This site puts that all together along with the source data for an easy overview of the relationships.</p>
+                <p class="card-text">There is no obvious relationship between wind speed and latitude.  One might say all the highest values do seem to line up around every 20 degrees though, but nothing conclusive.</p>
               </div>
             </div>
           </div>          
@@ -81,23 +77,23 @@
               <h6 class="card-header text-center text-primary">Visualizations</h6>
               <div class="row">
                 <div class="col-lg-6 col-md-3 col-sm-2">
-                  <a href="/visualizations/visuals_page1.html">
-                    <img alt="Card image cap" class="card-img-top embed-responsive-item" src="/assets/images/max_temp_vs_lat.png">
+                  <a href="temperature.html">
+                    <img alt="Card image cap" class="card-img-top embed-responsive-item" src="../assets/images/max_temp_vs_lat.png">
                   </a>
                 </div>
                 <div class="col-lg-6 col-md-3 col-sm-2">
-                  <a href="/visualizations/visuals_page2.html">
-                    <img alt="Card image cap" class="card-img-top embed-responsive-item" src="/assets/images/cloudiness_vs_lat.png">
+                  <a href="cloudiness.html">
+                    <img alt="Card image cap" class="card-img-top embed-responsive-item" src="../assets/images/cloudiness_vs_lat.png">
                   </a>
                 </div>              
                 <div class="col-lg-6 col-md-3 col-sm-2">
-                  <a href="/visualizations/visuals_page3.html">
-                  <img alt="Card image cap" class="card-img-top embed-responsive-item" src="/assets/images/humidity_vs_lat.png">
+                  <a href="humidity.html">
+                  <img alt="Card image cap" class="card-img-top embed-responsive-item" src="../assets/images/humidity_vs_lat.png">
                   </a>
                 </div>
                 <div class="col-lg-6 col-md-3 col-sm-2">
-                  <a href="/visualizations/visuals_page4.html">
-                    <img alt="Card image cap" class="card-img-top embed-responsive-item" src="/assets/images/wind_speed_vs_lat.png">
+                  <a href="wind_speed.html">
+                    <img alt="Card image cap" class="card-img-top embed-responsive-item" src="../assets/images/wind_speed_vs_lat.png">
                   </a>
                 </div>
               </div>
