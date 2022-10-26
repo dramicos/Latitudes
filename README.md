@@ -4,6 +4,8 @@ A website to present analysis generated from a previous assignment on weather.
 Website Repository for HW11
 by: Arnold Schultz
 
+Live site hosted at: https://dramicos.github.io/Latitudes/index.html
+
 
 
 ## Main Web Pages
